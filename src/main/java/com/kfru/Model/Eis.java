@@ -25,11 +25,7 @@ public class Eis {
         this.id = id;
     }
 
-    public void setSorte(Sorte sorte) {
-        this.sorte = sorte;
-    }
-
-       public Sorte getSorte() {
+    public Sorte getSorte() {
         return sorte;
     }
 
@@ -37,8 +33,8 @@ public class Eis {
         this.preis = preis;
     }
 
-        public Long getPreis() {
+    public Long getPreis() {
         return preis;
     }
-    
+
 }
